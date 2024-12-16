@@ -1,10 +1,10 @@
 # Ejemplo de flujo para firmar un documento
 
-1.- En la aplicación de escritorio se creará un archivo con una clave aleatoria de 1024 caracteres
-2.- Esta clave será enviada por correo todos los usuarios.
-3.- La aplicación móvil permitirá cargar esta clave de forma local
-4.- Cada vez que se necesite subir un archivo a la aplicación móvil, se deberá crear una firma del archivo usando la clave enviada con la aplicación de escritorio.
-5.- La aplicación móvil deberá verificar la firma del archivo antes de permitir subir a la aplicación.
+* En la aplicación de escritorio se creará un archivo con una clave aleatoria de 1024 caracteres
+* Esta clave será enviada por correo todos los usuarios.
+* La aplicación móvil permitirá cargar esta clave de forma local
+* Cada vez que se necesite subir un archivo a la aplicación móvil, se deberá crear una firma del archivo usando la clave enviada con la aplicación de escritorio.
+* La aplicación móvil deberá verificar la firma del archivo antes de permitir subir a la aplicación.
 
 ## Compilar aplicación GO
 
