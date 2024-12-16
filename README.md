@@ -12,11 +12,13 @@ cd firma
 go build firma.go
 
 ## Instalar paquetes node
+
 cd verifica
 npm install
 
 
 ## Crear clave y firmar archivos
+
 En la raiz del proyecto
 
 Generar nueva clave
@@ -28,6 +30,7 @@ Firmar un archivo
 ---
 
 ### Para el ejemplo en particular
+
 Generar nueva clave
 ./firma/firma --generate --output ../signing_key.txt
 
